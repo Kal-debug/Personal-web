@@ -79,6 +79,12 @@ src/
 - CSS transitions between pages and components where natural-feeling animations needed major css element adjustments to achieve
 - State management for form submissions required careful synchronization between components and persistent storage
 - Handling conditional rendering while maintaining smooth transitions between content sections proved challenging
+- Syncing local and remote branches caused push rejections due to conflicts, requiring rebasing and manual conflict resolution.
+- GitHub Pages deployment required configuring vite.config.js correctly, ensuring the base path matched the repository name.
+- Initial GitHub Pages setup caused a blank page due to missing static files, requiring a proper npm run build before deployment.
+- Forcing Vue's routing to work on GitHub Pages required serving static files correctly without a backend to handle navigation.
+- Caching issues after deployment led to outdated assets being served, requiring hard refreshes and browser cache clearing.
+- Ensuring the gh-pages branch served the correct files required manually deploying the dist/ folder using npx gh-pages.
 
 ## Future Enhancements
 
