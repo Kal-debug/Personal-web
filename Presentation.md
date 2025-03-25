@@ -1,8 +1,4 @@
-Below is a sample README.md you can adapt for your personal website project. It explains how each major file ties into the overall application, highlights the Vue features you used, and documents libraries like Pinia and Naive UI. Feel free to adjust the wording and structure as needed.
-
----
-
-# Personal Website (Vue 3)
+# Personal Website (Vue 3) Presentation
 
 This project is a personal website built with **Vue 3**, featuring multiple sections (Home, Projects, Contact), interactive elements, and global state management using **Pinia**. It serves as a showcase of Vue fundamentals—including reactivity, two-way data binding, conditional rendering, list rendering, computed properties, watchers, and component-based architecture. Styling is handled with both standard CSS (`style.css`) and **Naive UI** components.
 
